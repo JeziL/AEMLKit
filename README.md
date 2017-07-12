@@ -9,9 +9,9 @@
 
 断铅、落球和敲击的声发射信号，每个信号由能量、持续时间和振铃计数三个参数值构成的特征向量表示。
 
-- [`data_train.csv`](data_train.csv): 训练数据，第 1~40 行、41~80 行和 81~120 行分别是 40 组断铅、落球、敲击信号；
-- [`data_validate.csv`](data_validate.csv): 验证数据，第 1~10 行、11~20 行和 21~30 行分别是 10 组断铅、落球、敲击信号；
-- [`data_test.csv`](data_test.csv): 测试数据，第 1~10 行、11~20 行和 21~30 行分别是 10 组断铅、落球、敲击信号；
+- [`data_train.csv`](data_train.csv): 训练数据，第 1\~40 行、41\~80 行和 81\~120 行分别是 40 组断铅、落球、敲击信号；
+- [`data_validate.csv`](data_validate.csv): 验证数据，第 1\~10 行、11\~20 行和 21\~30 行分别是 10 组断铅、落球、敲击信号；
+- [`data_test.csv`](data_test.csv): 测试数据，第 1\~10 行、11\~20 行和 21\~30 行分别是 10 组断铅、落球、敲击信号；
 
 ## Demo 说明
 
@@ -37,7 +37,7 @@ size_t numClasses;          // 输出节点数（即类别数）
 size_t *hiddenLayerSizes;   // 各隐藏层神经元数
 ```
 
-`void FeedForwardNet::initFFNet()` 完成神经网络的初始化
+`void FeedForwardNet::initFFNet()` 完成神经网络的初始化。
 
 ### 3. 训练
 
