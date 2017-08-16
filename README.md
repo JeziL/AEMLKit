@@ -5,6 +5,15 @@
 - [Boost](http://www.boost.org/)
 - [Shark](http://image.diku.dk/shark/)
 
+## Build and Run the Demo
+
+```
+mkdir build && cd build
+cmake ..
+make
+./demo
+```
+
 ## Demo 数据
 
 断铅、落球和敲击的声发射信号，每个信号由能量、持续时间和振铃计数三个参数值构成的特征向量表示。
