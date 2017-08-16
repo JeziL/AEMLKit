@@ -8,9 +8,10 @@
 ## Build and Run the Demo
 
 ```
-mkdir build && cd build
+mkdir build && pushd build
 cmake ..
 make
+popd
 ./demo
 ```
 
